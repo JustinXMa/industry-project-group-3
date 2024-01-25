@@ -1,0 +1,12 @@
+@use './mixins.scss';
+@use './typography.scss';
+@use './variables.scss';
+@forward './mixins.scss';
+@forward './typography.scss';
+@forward './variables.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
