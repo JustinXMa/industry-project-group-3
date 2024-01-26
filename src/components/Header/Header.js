@@ -18,20 +18,22 @@ export default function Header() {
                     <img className='header__menu' src={TempMenu} alt="" />
                     <img className='header__logo' src={Logo} alt="" />
                 </div>
-                <nav className='header__nav-container'>
-                    <p className="header__link">FIND A CRUISE</p>
-                    <p className="header__link">DEALS</p>
-                    <p className="header__link">SHIPS</p>
-                    <p className="header__link">DESTINATIONS</p>
-                    <p className="header__link">MANAGE MY CRUISE</p>
-                </nav>
-                <div className="header__icons-container">
-                    <div className="header__empty-div"></div>
-                    <img className="header__icon" src={TempHeart} alt="" />
-                    <img className="header__icon" src={TempWatch} alt="" />
+                <div className="header__nav-and-icons-container">
+                    <nav className='header__nav-container'>
+                        <p className="header__link">FIND A CRUISE</p>
+                        <p className="header__link">DEALS</p>
+                        <p className="header__link">SHIPS</p>
+                        <p className="header__link">DESTINATIONS</p>
+                        <p className="header__link">MANAGE MY CRUISE</p>
+                    </nav>
+                    <div className="header__icons-container">
+                        <div className="header__empty-div"></div>
+                        <img className="header__icon" src={TempHeart} alt="" />
+                        <img className="header__icon" src={TempWatch} alt="" />
+                        <p className='header__link header__link--sign-in'>SIGN IN</p>
+                        <img className="header__icon" src={Search} alt="" />
+                    </div>
                 </div>
-                <p className='header__link header__link--sign-in'>SIGN IN</p>
-                <img className="header__icon" src={Search} alt="" />
             </div>
         </header>
     )
