@@ -2,7 +2,7 @@ import "./PopUp.scss";
 
 const PopUp = () => {
   return (
-    <section className="container">
+    <dialog className="modal" id="modal">
       <img className="logo"></img>
       <p>Welcome to the gateway of your next great journey on the seas! </p>
       <h1 className="slogan">Your Journey Begins Here</h1>
@@ -23,7 +23,7 @@ const PopUp = () => {
         <buttons>I've Cruised Before</buttons>
         <buttons>New to Cruise</buttons>
       </div>
-    </section>
+    </dialog>
   );
 };
 
