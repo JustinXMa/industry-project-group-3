@@ -44,10 +44,12 @@ export default function Quiz() {
     return (
         <section className="quiz">
             <h2 className="quiz__question">{question}</h2>
-            <ul className="quiz__answer-list">{option.map((option, index) =>
-                <li key={index}><button className='quiz__button' onClick={() => handleSelect(option)} >{option}</button></li>
-            )}</ul>
-            <button className='quiz__next' onClick={handleNext} >Next</button>
+            <div className="quiz__button-container">
+                <ul className="quiz__answer-list">{option.map((option, index) =>
+                    <li key={index}><button className='quiz__button' onClick={() => handleSelect(option)} >{option}</button></li>
+                )}</ul>
+                <button className='quiz__next' onClick={handleNext} >Next</button>
+            </div>
         </section>
     )
 }
