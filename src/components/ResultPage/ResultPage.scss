@@ -5,19 +5,22 @@
 .info {
   position: absolute;
   top: 20rem;
-  right: 30rem;
+  right: 34.5rem;
 }
 
 .h1 {
   color: white;
-  font-size: 20px;
-  margin-left: 8rem;
+  font-size: 40px;
+  font-family: Kapra;
+  text-align: center;
 }
 
 .h2 {
   color: white;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 600;
+  font-family: Kapra;
+  text-align: center;
 }
 
 .result-page {
@@ -30,4 +33,5 @@
   margin-left: 20rem;
   margin-right: 10rem;
   margin-bottom: 4rem;
+  // margin-top: -2rem;
 }
