@@ -38,7 +38,7 @@ const Modal = () => {
               ready to set sail again.{" "}
             </p>
             <div className="button-container">
-              <buttons>I've Cruised Before</buttons>
+              <buttons className="close-modal">I've Cruised Before</buttons>
               <buttons className="close-modal" onClick={toggleModal}>
                 New to Cruise
               </buttons>

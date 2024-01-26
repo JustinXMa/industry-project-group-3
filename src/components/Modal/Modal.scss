@@ -1,5 +1,23 @@
 @use "../../styles/partials/globals.scss" as *;
 
+.close-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $colour-secondary-yellow;
+  color: black;
+  width: 38.3125rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+
+}
+
+.btn-modal {
+  background-color: $colour-primary-darkblue;
+  color: $colour-primary-darkblue;
+  border: none;
+}
+
 .modal {
   display: flex;
   flex-direction: column;
@@ -7,7 +25,7 @@
   width: 38.3125rem;
   height: 32.75rem;
   background-color: white;
-  border-radius: 25%;
+  border-radius: 10%;
 }
 
 .overlay {
@@ -23,4 +41,14 @@
 .button-container {
   display: flex;
   gap: 2rem;
+}
+
+.p-title {
+  padding: 2rem 0 1rem;
+  font-weight: 600;
+}
+
+.slogan {
+  color: $colour-primary-darkblue;
+  font-size: 93px
 }
