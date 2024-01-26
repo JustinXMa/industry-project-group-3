@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "question": "Question 1",
+        "answers": [
+            "a",
+            "b",
+            "c",
+            "d"
+        ]
+    },
+    {
+        "id": "2",
+        "question": "Question 2",
+        "answers": [
+            "e",
+            "f",
+            "g",
+            "h"
+        ]
+    },
+    {
+        "id": "3",
+        "question": "Question 3",
+        "answers": [
+            "i",
+            "j",
+            "k",
+            "l"
+        ]
+    },
+    {
+        "id": "4",
+        "question": "Question 4",
+        "answers": [
+            "m",
+            "n",
+            "o",
+            "p"
+        ]
+    }
+]
