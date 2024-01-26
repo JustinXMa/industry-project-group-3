@@ -16,9 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/quiz/:quizId" element={<Quiz />} />
-          <Route path="/quiz/result/:selectedResult" element={<QuizResult />} />
+          <Route path="/quiz/result/:selectedResult" element={<ResultPage />} />
           <Route path="/loading/:selectedResult" element={<LoadingPage />} />
-          <Route path="/results" element={<ResultPage />} />
+          {/* <Route path="/results" element={<ResultPage />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>

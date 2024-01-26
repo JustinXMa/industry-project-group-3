@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from '../../assets/logos/Anchor-Icon.svg'
 import "./Modal.scss";
+import { Link } from "react-router-dom";
 
 const Modal = () => {
   const [modal, setModal] = useState(false);
@@ -43,9 +44,11 @@ const Modal = () => {
               </p>
               <div className="button-container">
                 <buttons className="close-modal">I've Cruised Before</buttons>
-                <buttons className="close-modal" onClick={toggleModal}>
-                  New to Cruise
-                </buttons>
+                <Link className="close-modal" to='/quiz/1'>
+                  <buttons onClick={toggleModal}>
+                    New to Cruise
+                  </buttons>
+                </Link>
               </div>
             </div>
           </article>
