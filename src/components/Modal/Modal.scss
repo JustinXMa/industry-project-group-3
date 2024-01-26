@@ -1,13 +1,46 @@
 @use "../../styles/partials/globals.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-modal {
+  background-color: $colour-footer-background;
+  color: $colour-footer-background;
+  border: none;
+}
+
+// .overlay {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 2rem;
+//   width: 38.3125rem;
+//   height: 32.75rem;
+//   background-color: white;
+//   border-radius: 10%;
+// }
 
 .modal {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   width: 38.3125rem;
   height: 32.75rem;
   background-color: white;
-  border-radius: 25%;
+  border-radius: 10%;
+  font-weight: 400;
+}
+
+.logo {
+  width: 35.32px;
+  height: 38.59px;
 }
 
 .overlay {

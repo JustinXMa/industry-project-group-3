@@ -1,47 +1,49 @@
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-Regular.otf);
-    font-weight: 400;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-Regular.otf);
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-RegularItalic.otf);
-    font-weight: 400;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-RegularItalic.otf);
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-Condensed.otf);
-    font-weight: 400;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-Condensed.otf);
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-CondensedItalic.otf);
-    font-weight: 400;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-CondensedItalic.otf);
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-Bold.otf);
-    font-weight: 600;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-Bold.otf);
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-BoldItalic.otf);
-    font-weight: 600;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-BoldItalic.otf);
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-ExtraBold.otf);
-    font-weight: 700;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-ExtraBold.otf);
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: Kapra;
-    src: url(../../assets/fonts/Kapra-ExtraBoldItalic.otf);
-    font-weight: 700;
+  font-family: Kapra;
+  src: url(../../assets/fonts/Kapra-ExtraBoldItalic.otf);
+  font-weight: 700;
 }
+
+$font-stack: "Kapra", sans-serif;
