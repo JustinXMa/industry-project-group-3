@@ -1,0 +1,113 @@
+@use '../../styles/partials/globals.scss' as *;
+
+.header {
+    background-color: $colour-primary-darkblue;
+
+    &__banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 4rem;
+        padding: 0.28rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    &__country {
+        color: white;
+        font-weight: 400;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        margin-right: 0.5rem;
+    }
+
+    &__flag {
+        width: 0.7rem;
+        margin-right: 1.5rem;
+    }
+
+    &__phone {
+        color: white;
+        font-size: 0.74rem;
+        letter-spacing: 0.08rem;
+    }
+
+    &__main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.19rem 3.3rem 1.19rem 3.9rem;
+    }
+
+    &__nav-and-icons-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__nav-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.8rem;
+        padding-left: 2.4rem;
+    }
+
+    &__buttons-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 0.2rem;
+    }
+
+    &__link {
+        color: white;
+        font-size: 0.91rem;
+        font-weight: 400;
+        letter-spacing: 0.12rem;
+        text-align: center;
+
+        &--sign-in {
+            margin: 0 0.4rem 0 0.3rem;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__icons-container {
+        display: flex;
+        padding-right: 0.2rem;
+        margin-left: 6.0771rem;
+    }
+
+    &__empty-div {
+        width: 1rem;
+        flex-grow: 2;
+    }
+
+    &__icon {
+        width: 1rem;
+        margin: 0 0.8em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        background-color: white;
+        border: none;
+        width: 2rem;
+    }
+
+    &__logo {
+        width: 9.75rem;
+        border: 1px solid rgb(117, 175, 237);
+        margin-left: 2rem;
+    }
+}

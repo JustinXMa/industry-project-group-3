@@ -1,0 +1,96 @@
+@use "../../styles/partials/globals.scss" as *;
+
+.modal {
+  margin: 0 4.125rem;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #0D214D33
+}
+
+* {
+  text-decoration: none;
+}
+
+
+.lower {
+  margin: 0 4.125rem 1.5rem;
+}
+
+.close-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $colour-secondary-yellow;
+  color: black;
+  width: 38.3125rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+
+}
+
+.modal-content {
+  margin-bottom: 2rem;
+}
+
+.btn-modal {
+  background-color: $colour-primary-darkblue;
+  color: $colour-primary-darkblue;
+  border: none;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 38.3125rem;
+  height: 32.75rem;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.overlay {
+  width: 38.3125rem;
+  height: 40.75rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.p-title {
+  padding: 2rem 0 1rem;
+  font-weight: 600;
+}
+
+.slogan {
+  text-align: center;
+  font-family: Kapra;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 2.1875rem;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  padding-top: 0.5rem;
+  color: $colour-primary-darkblue;
+}
