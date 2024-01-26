@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage'
 import Quiz from './components/Quiz/Quiz'
 import QuizResult from './components/QuizResult/QuizResult'
 import LoadingPage from './pages/LoadingPage/LoadingPage'
+import Footer from './components/Footer/Footer';
 import './App.scss';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/quiz/result/:selectedResult' element={<QuizResult />} />
           <Route path='/loading/:selectedResult' element={<LoadingPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
