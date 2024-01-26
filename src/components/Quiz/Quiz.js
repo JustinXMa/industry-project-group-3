@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams, Navigate, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import QuizData from '../../data/quiz-data.json'
 import './Quiz.scss'
 
@@ -13,6 +13,7 @@ export default function Quiz() {
     const [disableNext, setDisableNext] = useState(true);
 
     let { quizId } = useParams()
+    const currentQuizId = parseInt(quizId);
 
     useEffect(() => {
         let selectedQuestion = QuizData.find(question => question.id === quizId)
@@ -50,7 +51,6 @@ export default function Quiz() {
 
     const handleNext = () => {
         setAnswer((previousSelections) => [...previousSelections, selected]);
-        console.log(answer)
         let nextQuizId = parseInt(quizId) + 1;
         if (nextQuizId <= QuizData.length) {
             setDisableNext(true);
@@ -62,6 +62,15 @@ export default function Quiz() {
 
     return (
         <section className="quiz">
+            <div className="quiz__navbar">
+                {Array.from({ length: QuizData.length }, (_, index) => (
+                    <div
+                        key={index + 1}
+                        className={`quiz__navbar-circle ${index + 1 === currentQuizId && 'active'}`}
+                    >
+                    </div>
+                ))}
+            </div>
             <h2 className='quiz__title'>Question:</h2>
             <h2 className="quiz__question">{question}</h2>
             <p className='quiz__info'>{information}</p>
