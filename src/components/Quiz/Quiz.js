@@ -5,6 +5,7 @@ import './Quiz.scss'
 
 export default function Quiz() {
     const [question, setQuestion] = useState('')
+    const [information, setInformation] = useState('')
     const [option, setOption] = useState([])
     const [selected, setSelected] = useState('')
     const [answer, setAnswer] = useState([])
@@ -17,6 +18,7 @@ export default function Quiz() {
         let selectedQuestion = QuizData.find(question => question.id === quizId)
         if (selectedQuestion) {
             setQuestion(selectedQuestion.question)
+            setInformation(selectedQuestion.information)
             setOption(selectedQuestion.answers)
         }
     }, [quizId])
@@ -60,7 +62,9 @@ export default function Quiz() {
 
     return (
         <section className="quiz">
+            <h2 className='quiz__title'>Question:</h2>
             <h2 className="quiz__question">{question}</h2>
+            <p className='quiz__info'>{information}</p>
             <div className="quiz__button-container">
                 <ul className="quiz__answer-list">{option.map((option, index) =>
                     <li key={index}><button className='quiz__button' onClick={() => handleSelect(option)} >{option}</button></li>
