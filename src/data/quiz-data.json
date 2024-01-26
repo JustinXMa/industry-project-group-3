@@ -1,12 +1,10 @@
 [
     {
         "id": "1",
-        "question": "Question 1",
+        "question": "Question: Are you travelling solo, or in a group?",
         "answers": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Yes",
+            "No"
         ]
     },
     {
