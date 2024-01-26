@@ -1,60 +1,62 @@
 [
     {
         "id": "1",
-        "question": "What Is Your Ideal Vacation Spot?",
+        "question": "Are you travelling solo or with a group?",
+        "information": "Whether you're setting sail alone for a peaceful retreat or cruising with friends or family for a group adventure, we have options to suit your travel style.",
         "answers": [
-            "a",
-            "b"
+            "Solo",
+            "Group"
         ]
     },
     {
         "id": "2",
-        "question": "What Type Of Accomodations Are You Considering",
+        "question": "Are you looking for a quiet time at sea or an onboard adventure",
+        "information": "Decide the pace of your cruise. Are you looking to unwind in tranquility or fill your days with excitement and activity?",
         "answers": [
-            "c",
-            "d",
-            "e",
-            "f"
+            "Quiet time at sea",
+            "On board adventure"
         ]
     },
     {
         "id": "3",
-        "question": "How Long Do You Want To Cruise?",
+        "question": "What are you most looking forward to?",
+        "information": "Is it the thrill of entertainment and sightseeing, or the allure of unique dining experiences? Let us know what excites you most to help us tailor your cruise experience.",
         "answers": [
-            "g",
-            "h",
-            "i",
-            "j"
+            "Entertainment and sightseeing",
+            "Unique dinig experiences",
+            "Relaxation",
+            "I'm open to everything"
         ]
     },
     {
         "id": "4",
-        "question": "What Are You Most Looking Forward To?",
+        "question": "How long are you looking to be at sea?",
+        "information": "From short getaways to longer escapades, the duration of your cruise can shape your experience. Choose the length that fits your schedule and preferences.",
         "answers": [
-            "k",
-            "l",
-            "m",
-            "n"
+            "Short trip (3 Days)",
+            "Somewhere in the middle (7 days)",
+            "Long journey(More than 7 days)",
+            "I'm flexible"
         ]
     },
     {
         "id": "5",
-        "question": "What Is Your Budget For The Cruise?",
+        "question": "What Destination Appeals To You Most?",
+        "information": "Every destination offers its own charm. Whether it's the historical allure of the Mediterranean, the vibrant culture of the Caribbean, or the scenic beauty of Europe, pick the one that calls to you.",
         "answers": [
-            "o",
-            "p",
-            "q",
-            "r"
+            "Mediterranean",
+            "Carribean",
+            "European"
         ]
     },
     {
         "id": "6",
-        "question": "What Destination Appeals To You Most?",
+        "question": "What is your budget?",
+        "information": "Understanding your budget helps us find the perfect cruise for you. Whether you're looking for value, willing to splurge a bit, or seeking luxury, we have options to match.",
         "answers": [
-            "s",
-            "t",
-            "u",
-            "v"
+            "I'm looking for the best value",
+            "I'm willing to pay more for certain experience",
+            "I want a luxury experience"
         ]
     }
 ]

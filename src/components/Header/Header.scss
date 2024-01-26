@@ -1,7 +1,7 @@
 @use '../../styles/partials/globals.scss' as *;
 
 .header {
-    background-color: $colour-darkblue;
+    background-color: $colour-primary-darkblue;
 
     &__banner {
         display: flex;
