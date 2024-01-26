@@ -12,6 +12,7 @@
         font-weight: 400;
         line-height: 150%;
         padding-top: 0.5rem;
+        color: $colour-primary-darkblue;
     }
 
     &__question {
@@ -20,6 +21,8 @@
         font-weight: 400;
         line-height: 150%;
         padding: 0 0 1.0625rem;
+        font-family: Kapra;
+        color: $colour-primary-darkblue;
     }
 
     &__info {
