@@ -1,40 +1,60 @@
 [
     {
         "id": "1",
-        "question": "Question: Are you travelling solo, or in a group?",
+        "question": "What Is Your Ideal Vacation Spot?",
         "answers": [
-            "Yes",
-            "No"
+            "a",
+            "b"
         ]
     },
     {
         "id": "2",
-        "question": "Question 2",
+        "question": "What Type Of Accomodations Are You Considering",
         "answers": [
+            "c",
+            "d",
             "e",
-            "f",
-            "g",
-            "h"
+            "f"
         ]
     },
     {
         "id": "3",
-        "question": "Question 3",
+        "question": "How Long Do You Want To Cruise?",
         "answers": [
+            "g",
+            "h",
             "i",
-            "j",
-            "k",
-            "l"
+            "j"
         ]
     },
     {
         "id": "4",
-        "question": "Question 4",
+        "question": "What Are You Most Looking Forward To?",
         "answers": [
+            "k",
+            "l",
             "m",
-            "n",
+            "n"
+        ]
+    },
+    {
+        "id": "5",
+        "question": "What Is Your Budget For The Cruise?",
+        "answers": [
             "o",
-            "p"
+            "p",
+            "q",
+            "r"
+        ]
+    },
+    {
+        "id": "6",
+        "question": "What Destination Appeals To You Most?",
+        "answers": [
+            "s",
+            "t",
+            "u",
+            "v"
         ]
     }
 ]
