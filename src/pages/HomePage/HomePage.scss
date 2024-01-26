@@ -1,8 +1,13 @@
 @use '../../styles/partials/globals.scss' as *;
 
 .home-page {
-    height: 633vw;
-    background-image: url(../../assets/images/webpage.svg);
-    background-size: 100%;
+    height: 70vw;
+    background-image: url(../../assets/images/web.svg);
+    background-size: 120%;
     background-repeat: no-repeat;
+    background-position: top;
+}
+
+.btn-modal {
+    text-align: center;
 }
