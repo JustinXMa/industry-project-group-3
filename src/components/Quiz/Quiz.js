@@ -8,6 +8,8 @@ export default function Quiz() {
     const [option, setOption] = useState([])
     const [selected, setSelected] = useState('')
     const [answer, setAnswer] = useState([])
+    const [selectedResult, setSelectedResult] = useState([])
+    const [disableNext, setDisableNext] = useState(true);
 
     let { quizId } = useParams()
 
@@ -16,14 +18,31 @@ export default function Quiz() {
         if (selectedQuestion) {
             setQuestion(selectedQuestion.question)
             setOption(selectedQuestion.answers)
-            console.log(option)
         }
     }, [quizId])
 
     const handleSelect = (option) => {
         setSelected(option);
-        console.log(selected)
+        setDisableNext(false)
     }
+
+    const generateCombinations = (currentAnswers, currentIndex) => {
+        if (currentIndex === QuizData.length) {
+            if (currentAnswers = answer)
+                setSelectedResult(currentAnswers);
+            return;
+        }
+
+        const currentQuestion = QuizData[currentIndex];
+
+        for (const option of currentQuestion.answers) {
+            generateCombinations([...currentAnswers, option], currentIndex + 1);
+        }
+    };
+
+    useEffect(() => {
+        generateCombinations([], 0);
+    }, [quizId]);
 
     const navigate = useNavigate();
 
@@ -32,12 +51,10 @@ export default function Quiz() {
         console.log(answer)
         let nextQuizId = parseInt(quizId) + 1;
         if (nextQuizId <= QuizData.length) {
+            setDisableNext(true);
             navigate(`/quiz/${nextQuizId}`)
-        } else {
-            const delay = 2000;
-            setTimeout(() => {
-                navigate('/quiz/result')
-            }, delay);
+        } else if (nextQuizId === 7) {
+            navigate(`/loading/${selectedResult}`)
         }
     }
 
@@ -48,7 +65,7 @@ export default function Quiz() {
                 <ul className="quiz__answer-list">{option.map((option, index) =>
                     <li key={index}><button className='quiz__button' onClick={() => handleSelect(option)} >{option}</button></li>
                 )}</ul>
-                <button className='quiz__next' onClick={handleNext} >Next</button>
+                <button className='quiz__next' onClick={handleNext} disabled={disableNext} >Next</button>
             </div>
         </section>
     )

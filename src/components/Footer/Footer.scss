@@ -1,0 +1,9 @@
+@use '../../styles/partials/globals.scss' as *;
+
+.footer {
+    height: 102vw;
+    background-image: url(../../assets/images/footer.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
