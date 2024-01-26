@@ -1,0 +1,8 @@
+@use '../../styles/partials/globals.scss' as *;
+
+.home-page {
+    height: 633vw;
+    background-image: url(../../assets/images/webpage.svg);
+    background-size: 100%;
+    background-repeat: none;
+}
