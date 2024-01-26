@@ -27,7 +27,6 @@ export default function Header() {
                         <p className="header__link">MANAGE MY CRUISE</p>
                     </nav>
                     <div className="header__icons-container">
-                        div.icon
                         <img className="header__icon" src={TempHeart} alt="" />
                         <img className="header__icon" src={TempWatch} alt="" />
                         <p className='header__link header__link--sign-in'>SIGN IN</p>
