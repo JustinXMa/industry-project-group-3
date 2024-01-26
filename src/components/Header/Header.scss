@@ -9,7 +9,7 @@
         justify-content: flex-end;
         align-items: center;
         margin-right: 4rem;
-        padding: 0.25rem 0;
+        padding: 0.28rem 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     }
 
@@ -22,8 +22,8 @@
     }
 
     &__flag {
-        width: 0.76rem;
-        height: 0.5rem;
+        width: 0.7rem;
+        // height: 0.8rem;
         margin-right: 1.5rem;
     }
 
@@ -91,8 +91,8 @@
     }
 
     &__icon {
-        width: 1rem;
-        margin: 0 0.88em;
+        width: 1.2rem;
+        margin: 0 0.8em;
 
         &:hover {
             cursor: pointer;

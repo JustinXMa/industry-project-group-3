@@ -1,8 +1,8 @@
 import Logo from '../../assets/images/Royal-Carribean-Logo.svg'
-import TempMenu from '../../assets/images/temp3.svg'
-import TempHeart from '../../assets/images/likes.svg'
-import TempWatch from '../../assets/images/views.svg'
-import USFlag from '../../assets/images/us-flag.png'
+import TempMenu from '../../assets/images/hamburger-menu.svg'
+import TempHeart from '../../assets/images/heart.svg'
+import TempWatch from '../../assets/images/bell.svg'
+import USFlag from '../../assets/images/us-flag.svg'
 import Search from '../../assets/images/search.svg'
 import './Header.scss';
 export default function Header() {
@@ -27,7 +27,7 @@ export default function Header() {
                         <p className="header__link">MANAGE MY CRUISE</p>
                     </nav>
                     <div className="header__icons-container">
-                        <div className="header__empty-div"></div>
+                        div.icon
                         <img className="header__icon" src={TempHeart} alt="" />
                         <img className="header__icon" src={TempWatch} alt="" />
                         <p className='header__link header__link--sign-in'>SIGN IN</p>
