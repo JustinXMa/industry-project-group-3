@@ -1,0 +1,20 @@
+@use "../../styles/partials/globals.scss" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 38.3125rem;
+  height: 32.75rem;
+  background-color: white;
+  border-radius: 25%;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+}
