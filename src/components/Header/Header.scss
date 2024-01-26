@@ -1,0 +1,105 @@
+@use '../../styles/partials/globals.scss' as *;
+
+.header {
+    background-color: $colour-darkblue;
+
+    &__banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 4rem;
+        padding: 0.25rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    &__country {
+        color: white;
+        font-weight: 400;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        margin-right: 0.5rem;
+    }
+
+    &__flag {
+        width: 0.76rem;
+        height: 0.5rem;
+        margin-right: 1.5rem;
+    }
+
+    &__phone {
+        color: white;
+        font-size: 0.74rem;
+        letter-spacing: 0.08rem;
+    }
+
+    &__main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.25rem 3.3rem 1.25rem 3.9rem;
+    }
+
+    &__nav-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 2.8rem;
+        padding-left: 2.5rem;
+    }
+
+    &__buttons-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 0.2rem;
+    }
+
+    &__link {
+        color: white;
+        font-size: 0.91rem;
+        font-weight: 400;
+        letter-spacing: 0.125rem;
+
+        &--sign-in {
+            margin: 0 0.5rem 0 0.1rem;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__icons-container {
+        display: flex;
+        padding-right: 0.2rem;
+    }
+
+    &__empty-div {
+        width: 0.05rem;
+        flex-grow: 2;
+    }
+
+    &__icon {
+        width: 1rem;
+        margin: 0 0.88em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        background-color: white;
+        border: none;
+        width: 2rem;
+    }
+
+    &__logo {
+        width: 9.75rem;
+        border: 1px solid rgb(117, 175, 237);
+        margin-left: 2rem;
+    }
+}
